@@ -1,0 +1,41 @@
+.th:first-child {
+    padding-left: 34px;
+}
+#search{
+    width:100%;
+}
+.card{
+    margin:20px;
+}
+.card-body{
+    margin-right:0px;
+    margin-left:0px
+}
+.card{
+    background-color:#8080801a;
+}
+.btn-sm{
+    
+        margin-right: 15px;
+        font-weight: 700 !important;
+    
+}
+td{
+    padding:10px
+}
+.mt-3 {
+    margin-top: 3rem!important;
+}
+
+
+td:first-child,
+th:first-child {
+  padding-left: 20px !important;
+}
+.btn-outline-secondary{
+    float: right !important;
+}
+
+.form-control {
+    margin-bottom: 15px ;
+}

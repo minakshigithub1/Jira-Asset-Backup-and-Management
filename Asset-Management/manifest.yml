@@ -1,0 +1,15 @@
+modules:
+  jira:globalPage:
+    - key: asset-management-hello-world-page
+      resource: main
+      resolver:
+        function: resolver
+      title: Asset Management
+  function:
+    - key: resolver
+      handler: index.handler
+resources:
+  - key: main
+    path: static/hello-world/build
+app:
+  id: ari:cloud:ecosystem::app/920baa8b-bff7-4eb0-8684-9fb2c6c5ff61
